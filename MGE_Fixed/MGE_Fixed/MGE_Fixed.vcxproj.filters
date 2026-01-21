@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mge\behaviours\AbstractBehaviour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\behaviours\KeysBehaviour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\behaviours\RotatingBehaviour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\core\AbstractGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\core\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\core\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\core\Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\core\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\core\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\core\ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\core\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\core\World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\materials\AbstractMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\materials\ColorMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\materials\LightMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\materials\TextureMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\util\DebugHud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mge\MGEDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MediocreWeek2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AverageWeek2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraOrbitBehaviour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GoodWeek2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcellentWeek2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MediocreWeek3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleLightMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GoodWeek3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MediocreWeek4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AverageWeek4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mge\behaviours\AbstractBehaviour.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\behaviours\KeysBehaviour.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\behaviours\RotatingBehaviour.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\core\AbstractGame.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\core\Camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\core\GameObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\core\Light.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\core\Mesh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\core\Renderer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\core\ShaderProgram.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\core\Texture.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\core\World.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\materials\AbstractMaterial.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\materials\ColorMaterial.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\materials\LightMaterial.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\materials\TextureMaterial.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\util\DebugHud.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mge\MGEDemo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MediocreWeek2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AverageWeek2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraOrbitBehaviour.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GoodWeek2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcellentWeek2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MediocreWeek3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultipleLightMaterial.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GoodWeek3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultipleLight.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MediocreWeek4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainMaterial.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AverageWeek4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".idea\.gitignore" />
+    <None Include=".idea\MGE_CLion.iml" />
+    <None Include="mge\shaders\color.fs" />
+    <None Include="mge\shaders\color.vs" />
+    <None Include="mge\shaders\light.fs" />
+    <None Include="mge\shaders\light.vs" />
+    <None Include="mge\shaders\texture.fs" />
+    <None Include="mge\shaders\texture.vs" />
+    <None Include="rotation.vs" />
+    <None Include="multipleLight.vs" />
+    <None Include="multipleLight.fs" />
+    <None Include="terrainDeform.vs" />
+    <None Include="terrainDeform.fs" />
+    <None Include="mge\shaders\terrainDeform.vs" />
+    <None Include="mge\shaders\terrainDeform.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include=".idea\editor.xml" />
+    <Xml Include=".idea\misc.xml" />
+    <Xml Include=".idea\modules.xml" />
+    <Xml Include=".idea\workspace.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="mge\fonts\arial.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="mge\textures\bricks.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mge\textures\land.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mge\textures\runicfloor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mge\textures\HastingsColorMap2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mge\terrain\diffuse1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mge\terrain\diffuse2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mge\terrain\diffuse3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mge\terrain\diffuse4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mge\terrain\heightmap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mge\terrain\splatmap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mge\terrain\water.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="mge\models\cylinder_smooth.obj" />
+    <CopyFileToFolders Include="mge\models\teapot_smooth.obj" />
+    <CopyFileToFolders Include="mge\models\cone_flat.obj" />
+    <CopyFileToFolders Include="mge\models\cone_smooth.obj" />
+    <CopyFileToFolders Include="mge\models\cube_flat.obj" />
+    <CopyFileToFolders Include="mge\models\cube_smooth.obj" />
+    <CopyFileToFolders Include="mge\models\cylinder_flat.obj" />
+    <CopyFileToFolders Include="mge\models\plane.obj" />
+    <CopyFileToFolders Include="mge\models\plane20x20_2048tris_aligned_uvs.obj" />
+    <CopyFileToFolders Include="mge\models\plane20x20_2tris_aligned_uvs.obj" />
+    <CopyFileToFolders Include="mge\models\sphere_flat.obj" />
+    <CopyFileToFolders Include="mge\models\sphere_smooth.obj" />
+    <CopyFileToFolders Include="mge\models\suzanna_flat.obj" />
+    <CopyFileToFolders Include="mge\models\suzanna_smooth.obj" />
+    <CopyFileToFolders Include="mge\models\teapot_flat.obj" />
+    <CopyFileToFolders Include="mge\models\hastings.obj" />
+    <CopyFileToFolders Include="mge\models\plane20x20_million_tris.obj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c2ee0ee1-e973-4a16-8c96-93c6755d4ec9}</ProjectGuid>
+    <RootNamespace>MGEFixed</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AverageWeek2.cpp" />
+    <ClCompile Include="AverageWeek4.cpp" />
+    <ClCompile Include="CameraOrbitBehaviour.cpp" />
+    <ClCompile Include="ExcellentWeek2.cpp" />
+    <ClCompile Include="GoodWeek2.cpp" />
+    <ClCompile Include="GoodWeek3.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MediocreWeek2.cpp" />
+    <ClCompile Include="MediocreWeek3.cpp" />
+    <ClCompile Include="MediocreWeek4.cpp" />
+    <ClCompile Include="mge\behaviours\AbstractBehaviour.cpp" />
+    <ClCompile Include="mge\behaviours\KeysBehaviour.cpp" />
+    <ClCompile Include="mge\behaviours\RotatingBehaviour.cpp" />
+    <ClCompile Include="mge\core\AbstractGame.cpp" />
+    <ClCompile Include="mge\core\Camera.cpp" />
+    <ClCompile Include="mge\core\GameObject.cpp" />
+    <ClCompile Include="mge\core\Light.cpp" />
+    <ClCompile Include="mge\core\Mesh.cpp" />
+    <ClCompile Include="mge\core\Renderer.cpp" />
+    <ClCompile Include="mge\core\ShaderProgram.cpp" />
+    <ClCompile Include="mge\core\Texture.cpp" />
+    <ClCompile Include="mge\core\World.cpp" />
+    <ClCompile Include="mge\materials\AbstractMaterial.cpp" />
+    <ClCompile Include="mge\materials\ColorMaterial.cpp" />
+    <ClCompile Include="mge\materials\LightMaterial.cpp" />
+    <ClCompile Include="mge\materials\TextureMaterial.cpp" />
+    <ClCompile Include="mge\MGEDemo.cpp" />
+    <ClCompile Include="mge\util\DebugHud.cpp" />
+    <ClCompile Include="MultipleLight.cpp" />
+    <ClCompile Include="MultipleLightMaterial.cpp" />
+    <ClCompile Include="TerrainMaterial.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AverageWeek2.hpp" />
+    <ClInclude Include="AverageWeek4.hpp" />
+    <ClInclude Include="CameraOrbitBehaviour.hpp" />
+    <ClInclude Include="ExcellentWeek2.hpp" />
+    <ClInclude Include="glm.hpp" />
+    <ClInclude Include="GoodWeek2.hpp" />
+    <ClInclude Include="GoodWeek3.hpp" />
+    <ClInclude Include="MediocreWeek2.hpp" />
+    <ClInclude Include="MediocreWeek3.hpp" />
+    <ClInclude Include="MediocreWeek4.hpp" />
+    <ClInclude Include="mge\behaviours\AbstractBehaviour.hpp" />
+    <ClInclude Include="mge\behaviours\KeysBehaviour.hpp" />
+    <ClInclude Include="mge\behaviours\RotatingBehaviour.hpp" />
+    <ClInclude Include="mge\config.hpp" />
+    <ClInclude Include="mge\core\AbstractGame.hpp" />
+    <ClInclude Include="mge\core\Camera.hpp" />
+    <ClInclude Include="mge\core\GameObject.hpp" />
+    <ClInclude Include="mge\core\Light.hpp" />
+    <ClInclude Include="mge\core\Mesh.hpp" />
+    <ClInclude Include="mge\core\Renderer.hpp" />
+    <ClInclude Include="mge\core\ShaderProgram.hpp" />
+    <ClInclude Include="mge\core\Texture.hpp" />
+    <ClInclude Include="mge\core\World.hpp" />
+    <ClInclude Include="mge\materials\AbstractMaterial.hpp" />
+    <ClInclude Include="mge\materials\ColorMaterial.hpp" />
+    <ClInclude Include="mge\materials\LightMaterial.hpp" />
+    <ClInclude Include="mge\materials\TextureMaterial.hpp" />
+    <ClInclude Include="mge\MGEDemo.hpp" />
+    <ClInclude Include="mge\util\DebugHud.hpp" />
+    <ClInclude Include="MultipleLight.hpp" />
+    <ClInclude Include="MultipleLightMaterial.hpp" />
+    <ClInclude Include="TerrainMaterial.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".idea\.gitignore" />
+    <None Include=".idea\MGE_CLion.iml" />
+    <None Include="mge\shaders\color.fs" />
+    <None Include="mge\shaders\color.vs" />
+    <None Include="mge\shaders\light.fs" />
+    <None Include="mge\shaders\light.vs" />
+    <None Include="mge\shaders\terrainDeform.fs" />
+    <None Include="mge\shaders\terrainDeform.vs" />
+    <None Include="mge\shaders\texture.fs" />
+    <None Include="mge\shaders\texture.vs" />
+    <None Include="multipleLight.fs" />
+    <None Include="multipleLight.vs" />
+    <None Include="rotation.vs" />
+    <None Include="terrainDeform.fs" />
+    <None Include="terrainDeform.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include=".idea\editor.xml" />
+    <Xml Include=".idea\misc.xml" />
+    <Xml Include=".idea\modules.xml" />
+    <Xml Include=".idea\workspace.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="mge\fonts\arial.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="mge\models\cone_flat.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\cone_smooth.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\cube_flat.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\cube_smooth.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\cylinder_flat.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\cylinder_smooth.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\plane.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\plane20x20_2048tris_aligned_uvs.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\plane20x20_2tris_aligned_uvs.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\sphere_flat.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\sphere_smooth.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\suzanna_flat.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\suzanna_smooth.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\teapot_flat.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mge\models\teapot_smooth.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="mge\terrain\diffuse1.jpg" />
+    <Image Include="mge\terrain\diffuse2.jpg" />
+    <Image Include="mge\terrain\diffuse3.jpg" />
+    <Image Include="mge\terrain\diffuse4.jpg" />
+    <Image Include="mge\terrain\heightmap.png" />
+    <Image Include="mge\terrain\splatmap.png" />
+    <Image Include="mge\terrain\water.jpg" />
+    <Image Include="mge\textures\bricks.jpg" />
+    <Image Include="mge\textures\HastingsColorMap2.png" />
+    <Image Include="mge\textures\land.jpg" />
+    <Image Include="mge\textures\runicfloor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="mge\models\hastings.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="mge\models\plane20x20_million_tris.obj">
+      <FileType>OBJ</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
